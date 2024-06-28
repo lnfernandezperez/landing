@@ -14,7 +14,7 @@ ul{
 .hero{
     background: url(img/Background\ Image\ \(1\).png) center / cover no-repeat;
     width: 100%;
-    height: 180vh;
+    height: 160vh;
 }
 
 header{
@@ -109,7 +109,8 @@ p{
 }
 
 .text-box{
-
+    display: flex;
+    flex-direction: column;
 }
 
 .shadow{
@@ -128,6 +129,30 @@ p{
 }
 
 .phoneimage1{
-    padding: 50px;
+    padding: 40px;
+    max-width: 300px;
 }
+
+.aboutourapp{
+    padding-top: 100px;
+    margin: 20px;
+    
+}
+
+.titlea2 {
+    text-align: center;
+}
+
+.coment{
+    display: flex;
+    align-items: start;
+    
+
+}
+
+.checkboxcircle{
+    margin-top: 13px;
+    margin-right: 15px;
+}
+
 
