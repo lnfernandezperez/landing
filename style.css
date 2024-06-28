@@ -14,7 +14,7 @@ ul{
 .hero{
     background: url(img/Background\ Image\ \(1\).png) center / cover no-repeat;
     width: 100%;
-    height: 100vh;
+    height: 180vh;
 }
 
 header{
@@ -126,3 +126,8 @@ p{
     padding: 10px 10px;
     
 }
+
+.phoneimage1{
+    padding: 50px;
+}
+
