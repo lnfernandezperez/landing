@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    font-family: 'Times New Roman', Times, serif; 
+    font-family: "Josefin Sans" 
     /* cambiar a josefin sans */
 }
 
@@ -103,3 +103,26 @@ p{
 
 }
 
+
+.hero-content{
+
+}
+
+.text-box{
+
+}
+
+.shadow{
+    max-width: 320px;
+    border: 10px  solid #ffffff30;
+    margin: 20px 10px 20px 40px;
+    padding: 10px 0 10px 0;
+}
+
+.text{
+    position: relative;
+    right: 30px;
+    background-color: white;
+    padding: 10px 10px;
+    
+}
