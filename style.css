@@ -14,7 +14,6 @@ ul{
 .hero{
     background: url(img/Background\ Image\ \(1\).png) center / cover no-repeat;
     width: 100%;
-    height: 160vh;
 }
 
 header{
@@ -134,10 +133,8 @@ p{
 }
 
 .aboutourapp{
-    padding-top: 100px;
-    margin: 20px;
-    height: 140vh;
-
+    padding:100px 20px 50px;
+    background-color: #fff;
     
 }
 
@@ -177,4 +174,17 @@ p{
 
 .pdd-p{
     padding-bottom: 50px;
+}
+
+.ourreactiveteam{
+    text-align: center;
+    background-color: #fff;
+}
+
+.cardb1{
+    margin: 10px;
+    padding: 10px;
+    height: 580px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 1px #80808050;
 }
