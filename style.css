@@ -136,6 +136,8 @@ p{
 .aboutourapp{
     padding-top: 100px;
     margin: 20px;
+    height: 140vh;
+
     
 }
 
@@ -160,4 +162,19 @@ p{
     margin-left: 15px;
 }
 
+.appfeatures{
+    background: url(img/Background\ Image\ \(1\).png) center / cover no-repeat;
+    width: 100%;
+    height: 350vh;
+    color: white;
+    text-align: center;
+}
 
+.mrg-h3{
+    padding-top: 80px;
+    
+}
+
+.pdd-p{
+    padding-bottom: 50px;
+}
