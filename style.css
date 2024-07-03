@@ -101,11 +101,20 @@
     }
     
     p{
-        margin-right: 20px;
+        margin: 0px 20px;
     
     }
     
+    .icons ul{
+        display: flex;
+        justify-content: space-between;
+        
+
+        
+    }
+    .icons {
     
+    }
     .hero-content{
     
     }
@@ -116,7 +125,7 @@
     }
     
     .shadow{
-        max-width: 320px;
+        width: auto;
         border: 10px  solid #ffffff30;
         margin: 20px 10px 20px 40px;
         padding: 10px 0 10px 0;
@@ -146,6 +155,10 @@
         background-color: #fff;
         
     }
+    .p-abtapp{
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
     
     .titlea2 {
         text-align: center;
@@ -174,12 +187,13 @@
     
     .mrg-h3{
         padding-top: 80px;
+        font-size: 25px;
+        font-weight: 600;
         
     }
     
     .pdd-p{
         padding: 0 20px 50px 20px;
-        pad
     }
     
     .ourreactiveteam{
@@ -187,12 +201,34 @@
         background-color: #fff;
     }
     
+    .p-ort{
+        padding: 0 50px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #00000060;
+    }
     .cardb1{
-        margin: 10px;
-        padding: 10px;
+        margin: 20px;
+        padding: 30px;
         height: 580px;
         border-radius: 10px;
         box-shadow: 0 0 10px 1px #80808050;
+    }
+    .cardb1 h3{
+        font-size: 31.25px;
+        font-weight: 700;
+    }
+    .cardb1 h4{
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .cardb1 p{
+        color: #00000060;
+        font-weight:  400;
+        line-height: 24px;
+        padding-bottom: 30px;
     }
     
     .footer{
@@ -206,9 +242,13 @@
         filter: invert(100%);
     }
     
+        
+    
     .test{
-        /* display: flex;
-        flex-direction: column; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
         position: relative;
         background-color: white;
         text-align: center;
@@ -218,9 +258,38 @@
         height: 300px;
         width: 90%;
         top: 150px;
+        gap: 20px;
     
     }
     
+    .mail,.call{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .backicons {
+        margin: 20px 0 20px 0;
+        color: white;
+        background-color: #5956E9;
+        border-radius: 100%;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .test hr{
+        background-color: black;
+        width: 30%;
+        color: black;
+        height: 3px;
+
+    }
+    .test .mail, .call{
+        font-size: 20px;
+
+    }
 }
 
 @media screen and (min-width: 1024px) {
