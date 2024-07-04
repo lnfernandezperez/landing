@@ -4,7 +4,6 @@
     body{
         margin: 0;
         font-family: "Josefin Sans" 
-        /* cambiar a josefin sans */
     }
     
     a{
@@ -18,7 +17,10 @@
         background: url(img/Background\ Image\ \(1\).png) center / cover no-repeat;
         width: 100%;
     }
+    .contact-header{
+        display: none;
 
+    }
     header{
         width: 100%;
         padding: 40px 0;
@@ -426,6 +428,355 @@
     }
 }
 
+
+@media screen and (max-width: 1023px) and (min-width: 651px) {
+    body{
+        margin: 0;
+        font-family: "Josefin Sans" 
+        /* cambiar a josefin sans */
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    ul{
+        list-style: none;
+        padding: 0;
+    }
+    .hero{
+        background: url(img/Background\ Image\ \(1\).png) center / cover no-repeat;
+        width: 100%;
+    }
+    
+    header{
+        width: 100%;
+        padding:
+    }
+    .mail-phone{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+    .contact-header{
+        display: flex;
+        color: white;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 5px;
+        padding: 30px 20px 40px 20px;
+    }
+    .socialicons{
+        display: flex;
+        justify-content: flex-end;
+       
+        gap: 20px;
+    }
+    .mail-phone p{
+        margin: 0;
+    }
+    .navbar{
+        height: 50px;
+        margin: 0 20px;
+        background-color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 5px;
+    }
+    
+    .logo{
+        width: 30%;
+        padding: 30px 15px;
+        box-shadow: 0 0 80px 5px #00000020;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        border-radius: 5px;
+        
+    }
+    
+    .logo img{
+        width: 90%;
+    }
+    
+    .input{
+        position: relative;
+    }
+    
+    #menuToggle {
+    display: block;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    
+    z-index: 1;
+    
+    -webkit-user-select: none;
+    user-select: none;
+    }
+
+    #menuToggle a {
+    text-decoration: none;
+    color: #232323;
+    
+    transition: color 0.3s ease;
+    }
+
+    #menuToggle a:hover {
+    color: tomato;
+    }
+
+
+    #menuToggle input {
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -55px;
+    left: -43px;
+    
+    cursor: pointer;
+    
+    opacity: 0;
+    z-index: 2;
+    
+    -webkit-touch-callout: none;
+    }
+
+    #menuToggle span {
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+    right: 35px;
+    top: -47px;
+    background: #cdcdcd;
+    border-radius: 3px;
+    
+    z-index: 1;
+    
+    transform-origin: 4px 0px;
+    
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                opacity 0.55s ease;
+    }
+
+    #menuToggle span:first-child {
+    transform-origin: 0% 0%;
+    }
+
+    #menuToggle span:nth-last-child(2) {
+    transform-origin: 0% 100%;
+    }
+
+    #menuToggle input:checked ~ span {
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+    background: #232323;
+    }
+
+    #menuToggle input:checked ~ span:nth-last-child(3) {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+    }
+
+    #menuToggle input:checked ~ span:nth-last-child(2) {
+    transform: rotate(-45deg) translate(0, -1px);
+    }
+
+    #menu {
+    position: absolute;
+    border-radius: 10px;
+    width: 150px;
+    bottom: -301px;
+    margin: -150px 0 0 -100px;
+    padding: 50px;
+    padding-top: 125px;
+    background: #ffffff;
+    list-style-type: none;
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+    
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+    }
+
+    #menu li {
+    padding: 10px 0;
+    font-size: 22px;
+    }
+
+    #menuToggle input:checked ~ ul {
+    transform: none;
+    }
+
+    p{
+        margin-right: 20px;
+    
+    }
+    
+    
+    .hero-content{
+    
+    }
+    
+    .text-box{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    
+    .shadow{
+        max-width: 320px;
+        height: 50%;
+        border: 15px  solid #ffffff30;
+        margin: 140px 10px 20px 40px;
+        padding: 10px 0 10px 0;
+    }
+    
+    .text{
+        position: relative;
+        right: 20px;
+        background-color: white;
+        padding: 10px 10px;
+        
+    }
+    
+    .phoneimage1{
+        padding: 40px;
+        max-width: 300px;
+        width: 50%;
+        
+    }
+    
+    .aboutourapp{
+        padding:100px 20px 50px;
+        background-color: #fff;
+        
+        
+    }
+    
+    .aoa-1{
+        display: flex;
+    }
+
+    .titlea2 {
+        text-align: center;
+        padding: 0px 100px;
+    }
+    
+    .coments{
+        margin-top: 50px;
+    }
+    .coment{
+        display: flex;
+        align-items: start;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        box-shadow: 0 0 10px 1px #80808050;
+    }
+    
+    .checkboxcircle{
+        margin-top: 13px;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    
+    .appfeatures{
+        background: url(img/Background\ Image\ \(1\).png) center / cover no-repeat;
+        width: 100%;
+        color: white;
+        text-align: center;
+    }
+    
+    .mrg-h3{
+        padding-top: 80px;
+        
+    }
+    
+    .pdd-p{
+        padding-bottom: 50px;
+    }
+    
+    .firsticons{
+        padding-left: 30px;
+        text-align: end;
+    }
+
+    .secondicons{
+        padding-right: 30px;
+        text-align: start;
+    }
+    .tabletlaptopconfig{
+        display: flex;
+        
+    }
+    .laptopafconfig{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .ourreactiveteam{
+        text-align: center;
+        background-color: #fff;
+    }
+    
+    .cardb1{
+        margin: 10px;
+        padding: 10px;
+        height: 580px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px 1px #80808030;
+    }
+
+    .cardsb1{
+        display: flex;
+        margin: 0px 30px;
+    }
+    
+    .footer{
+        background-color: #232323;
+        color: white;
+        padding-top: 200px;
+        padding-left: 10px;
+    }
+    
+    .inverted {
+        filter: invert(100%);
+    }
+    
+    .test{
+        display: flex;
+        position: relative;
+        background-color: white;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 0 0 10px 1px #80808050;
+        margin: 0 20px 0 20px;
+        height: 200px;
+        width: 94%;
+        top: 150px;
+    
+    }
+    .call{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 50px;
+    }
+    
+    .mail{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 50px;
+    }
+}
+
 @media screen and (min-width: 1024px) {
     body{
         margin: 0;
@@ -563,269 +914,6 @@
         
     }
 
-    
-    .aboutourapp{
-        padding:100px 20px 50px;
-        background-color: #fff;
-        
-        
-    }
-    
-    .aoa-1{
-        display: flex;
-    }
-
-    .titlea2 {
-        text-align: center;
-        padding: 0px 100px;
-    }
-    
-    .coments{
-        margin-top: 50px;
-    }
-    .coment{
-        display: flex;
-        align-items: start;
-        border-radius: 8px;
-        margin-bottom: 20px;
-        box-shadow: 0 0 10px 1px #80808050;
-    }
-    
-    .checkboxcircle{
-        margin-top: 13px;
-        margin-right: 15px;
-        margin-left: 15px;
-    }
-    
-    .appfeatures{
-        background: url(img/Background\ Image\ \(1\).png) center / cover no-repeat;
-        width: 100%;
-        color: white;
-        text-align: center;
-    }
-    
-    .mrg-h3{
-        padding-top: 80px;
-        
-    }
-    
-    .pdd-p{
-        padding-bottom: 50px;
-    }
-    
-    .firsticons{
-        padding-left: 30px;
-        text-align: end;
-    }
-
-    .secondicons{
-        padding-right: 30px;
-        text-align: start;
-    }
-    .tabletlaptopconfig{
-        display: flex;
-        
-    }
-    .laptopafconfig{
-        display: flex;
-        flex-direction: column;
-        
-    }
-    
-    .ourreactiveteam{
-        text-align: center;
-        background-color: #fff;
-    }
-    
-    .cardb1{
-        margin: 10px;
-        padding: 10px;
-        height: 580px;
-        border-radius: 10px;
-        box-shadow: 0 0 10px 1px #80808030;
-    }
-
-    .cardsb1{
-        display: flex;
-        margin: 0px 30px;
-    }
-    
-    .footer{
-        background-color: #232323;
-        color: white;
-        padding-top: 200px;
-        padding-left: 10px;
-    }
-    
-    .inverted {
-        filter: invert(100%);
-    }
-    
-    .test{
-        display: flex;
-        position: relative;
-        background-color: white;
-        text-align: center;
-        border-radius: 10px;
-        box-shadow: 0 0 10px 1px #80808050;
-        margin: 0 20px 0 20px;
-        height: 200px;
-        width: 94%;
-        top: 150px;
-    
-    }
-    .call{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0px 50px;
-    }
-    
-    .mail{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0px 50px;
-    }
-}
-
-@media screen and (max-width: 1023px) and (min-width: 651px) {
-    body{
-        margin: 0;
-        font-family: "Josefin Sans" 
-        /* cambiar a josefin sans */
-    }
-    
-    a{
-        text-decoration: none;
-    }
-    ul{
-        list-style: none;
-        padding: 0;
-    }
-    .hero{
-        background: url(img/Background\ Image\ \(1\).png) center / cover no-repeat;
-        width: 100%;
-    }
-    
-    header{
-        width: 100%;
-        padding: 40px 0;
-    }
-    
-    .navbar{
-        height: 50px;
-        margin: 0 20px;
-        background-color: #fff;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        border-radius: 5px;
-    }
-    
-    .logo{
-        width: 30%;
-        padding: 30px 15px;
-        box-shadow: 0 0 80px 5px #00000020;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: #fff;
-        border-radius: 5px;
-        
-    }
-    
-    .logo img{
-        width: 90%;
-    }
-    
-    
-    .button-hamgurguer{
-        display: none;
-    }
-    
-    .button-hamburguer{
-        appearance: none;
-        width: 50px;
-        height: 50px;
-        left: 40px;
-        position: absolute;
-        background-color: #fff;
-        border: none;
-        margin: 0;
-    }
-    
-    
-    .lines{
-        position: relative;
-        width: 50px;
-        height: 50px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-    
-    .line{
-        background-color: #000;
-        width: 60%;
-        height: 20%;
-        position: relative;
-        border-radius: 10px;
-        padding: 2px 2px;
-        margin: 7px 7px 7px 7px;
-    }
-    
-    .button-hamburguer:checked ~ .lines .line1{
-        transform: rotate(45deg);
-        transform-origin: 0% 0%;
-    }
-    
-    .button-hamburguer:checked ~ .lines.line2{
-        transition: transform 0.4s ease-in-out;
-    }
-    
-    .button-hamburguer:checked ~ .lines .line3{
-        transform: rotate(-45deg);
-        transform-origin: 0% 100%;
-    }
-
-    p{
-        margin-right: 20px;
-    
-    }
-    
-    
-    .hero-content{
-    
-    }
-    
-    .text-box{
-        display: flex;
-        
-    }
-    
-    .shadow{
-        max-width: 320px;
-        height: 50%;
-        border: 15px  solid #ffffff30;
-        margin: 140px 10px 20px 40px;
-        padding: 10px 0 10px 0;
-    }
-    
-    .text{
-        position: relative;
-        right: 20px;
-        background-color: white;
-        padding: 10px 10px;
-        
-    }
-    
-    .phoneimage1{
-        padding: 40px;
-        max-width: 300px;
-        width: 50%;
-        
-    }
     
     .aboutourapp{
         padding:100px 20px 50px;
